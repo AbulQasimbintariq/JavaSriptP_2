@@ -1,0 +1,86 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(55, 38, 38);
+}
+
+h1{
+    font-size: 3rem;
+}
+@media screen and (max-width:600px) {
+  h1{
+    font-size: 1.7rem;
+  
+  }
+}
+
+p{
+  font-size: 1.5rem;
+  color:  rgb(95, 96, 96);
+}
+@media screen and (max-width:600px) {
+  p{
+    font-size: 1.1rem;
+  
+  }
+}
+button{
+  font-size: 2rem;
+  font-weight: 700;
+  padding:1rem;
+  width: 70%;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+@media screen and (max-width:600px) {
+  button{
+    font-size: 1.2rem;
+      padding:.5rem;
+    
+  }
+}
+button:hover{
+  background-color: rgb(230, 235, 235);
+}
+
+footer{
+    height: 5rem;
+    background-color: rgb(230, 235, 235);
+    border-radius: 2rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width:700px) {
+    footer p{
+      font-size: 1.1rem;
+    
+    }
+  }
+  footer p{
+    background:transparent;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  footer div{
+    background: transparent;
+    padding: 0;
+    margin: 0; 
+  }
+  footer a{
+    padding:0 2rem;
+    background: transparent; 
+    text-decoration: none;
+  }
+  footer i{
+    color: rgb(55, 38, 38);
+    background: transparent;
+  }
