@@ -57,9 +57,9 @@ footer{
     font-weight: 700;
   }
   
-  @media screen and (max-width:700px) {
+  @media screen and (max-width:500px) {
     footer p{
-      font-size: 1.1rem;
+      font-size: .7rem;
     
     }
   }
@@ -80,7 +80,20 @@ footer{
     background: transparent; 
     text-decoration: none;
   }
+
+  @media screen and (max-width:500px) {
+    footer a{
+      padding:0 .7rem;
+
+    }
+  }
   footer i{
     color: rgb(55, 38, 38);
     background: transparent;
+  }
+
+  @media screen and (max-width:500px) {
+    footer i{
+      font-size: .7rem;
+    }
   }
