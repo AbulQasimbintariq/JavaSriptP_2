@@ -75,6 +75,14 @@ footer{
     padding: 0;
     margin: 0; 
   }
+
+  footer div ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+  }
+
   footer a{
     padding:0 2rem;
     background: transparent; 
@@ -90,6 +98,7 @@ footer{
   footer i{
     color: rgb(55, 38, 38);
     background: transparent;
+    padding:.7rem 0;
   }
 
   @media screen and (max-width:500px) {
